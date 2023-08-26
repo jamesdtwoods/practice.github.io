@@ -1,0 +1,32 @@
+#EPL {
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: Purple;
+}
+
+#EPL th, #EPL td {
+  color: darkBlue;
+  border-bottom: 2px solid darkGray;
+  padding: 6px;
+}
+
+#EPL th {
+  background-color: Blue;
+  color: white;
+  padding: 10px;
+}
+
+#EPL tr:nth-child(even) {background-color: lightGrey;}
+#EPL tr:nth-child(2) {background-color: lightGreen;}
+#EPL tr:nth-child(3) {background-color: lightGreen;}
+#EPL tr:nth-child(4) {background-color: lightGreen;}
+#EPL tr:nth-child(5) {background-color: lightGreen;}
+#EPL tr:nth-child(19) {background-color: pink;}
+#EPL tr:nth-child(20) {background-color: pink;}
+#EPL tr:nth-child(21) {background-color: pink;}
+
+
+#EPL tr:hover {background-color: lightBlue;}
